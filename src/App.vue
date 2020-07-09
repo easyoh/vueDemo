@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" v-cloak>
       <router-view/>
   </div>
 </template>
@@ -8,6 +8,10 @@
 </script>
 
 <style>
+//使用v-cloak指令，然后为其设置css样式display:none;
+[v-cloak]{
+	display:none;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

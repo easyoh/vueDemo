@@ -56,34 +56,34 @@
                     {
                         icon: "el-icon-location",
                         index: "homepage",
-                        title: "首页"
+                        title: this.$t('aside.home')
                     },
                     {
                         icon: "el-icon-location",
                         index: "/button",
-                        title: "按钮",
+                        title: this.$t('aside.button'),
                         submenus:[
                             {
                                 icon: "el-icon-location",
                                 index: "button",
-                                title: "基本按钮"
+                                title: this.$t('aside.commonButton')
                             }
                         ]
                     },
                     {
                         icon: "el-icon-location",
                         index: "/echart",
-                        title: "图表",
+                        title: this.$t('aside.echarts'),
                     },
                     {
                         icon: "el-icon-location",
                         index: "/attr",
-                        title: "传值",
+                        title: this.$t('aside.transform'),
                     },
                     {
                         icon: "el-icon-location",
                         index: "/table",
-                        title: "表格",
+                        title: this.$t('aside.table'),
                     }
                 ]
             }
